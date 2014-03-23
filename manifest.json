@@ -4,7 +4,7 @@
             "matches": [
                 "http://*.tipidpc.com/*"
             ],
-            "run_at": "document_idle",
+            "run_at": "document_start",
             "js": [
                 "js/lib/jquery-1.8.2.min.js",
                 "js/content-script.js"
@@ -15,7 +15,7 @@
         }
     ],
     "update_url": "http://myhost.com/api/extensions/updates.xml",
-    "name": "Chrome Extension Template",
+    "name": "Tipid ex",
     "manifest_version": 2,
     "version": "0.1",
     "options_page": "options.html",
